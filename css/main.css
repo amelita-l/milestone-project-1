@@ -1,0 +1,217 @@
+/****** BASE STYLES ******/
+body {
+    font-family: 'Muli', sans-serif;
+    color: white;
+}
+
+#header {
+    height: 800px;
+}
+
+#portfolio {
+    height: 1500px;
+}
+
+#about {
+    height: 645px;
+}
+
+#contact {
+    height: 385px;
+}
+
+#copyright {
+    height: 60px;
+}
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+
+/****** HEADER ******/
+#header {
+    position: relative;
+    text-align: center;
+    background-color: #daad86;
+}
+
+.header-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.alt-color-italics {
+    color: #659dbd;
+    font-style: italic;
+    font-size: 30px;
+    padding-left: 242px;
+
+}
+.creative-thinker {
+    padding-left: 10px;
+}
+.getting-things {
+    padding-left: 180px;
+}
+
+.done {
+    padding-left: 313px;
+}
+
+h1 {
+     font-variant: small-caps;
+     font-size: 60px;
+}
+
+h2 {
+    padding-left: 140px;
+    padding-right: 30px;
+    padding-top: 325px;
+    font-size: 25px;
+    text-align:left;
+    line-height: 50px;
+}
+
+
+/******* PORTFOLIO ******/
+
+#portfolio {
+    margin-top: -35px;
+    background-color: white;
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #bc986a;
+}
+
+.thumbnails img {
+    padding-bottom: 50px;
+    width: 500px;
+    height: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: #bc986a;
+}
+
+#amelita-world-tour {
+    padding: 50px 20px 0px 20px;
+}
+
+#jubilee-austen {
+    padding: 180px 20px 0px 20px;
+}
+
+#amelita-landing-page {
+    padding: 180px 20px 0px 20px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 25px;
+    color:  #bc986a;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: #659dbd;
+}
+
+/****** ABOUT ******/
+
+#about {
+    margin-top: -300px;
+    padding-bottom: 30px;
+    background-color: #fbeec1;
+}
+
+p#about-me-paragraph {
+    color: #659dbd;
+    padding-top: 60px;
+}
+
+/****** FOOTER ******/
+#contact {
+    background-color: #8d8741;
+    margin-top: -140px;
+    margin-bottom: 20px;
+}
+
+h3#contact-text {
+    color: white;
+    margin-bottom: 10px;
+}
+
+p#email a {
+    text-decoration: none;
+    color: white;
+}
+
+h4.small-contact-headers {
+    color: white;
+}
+
+h4.small-contact-headers#hang-out {
+    margin-left: 20px;
+}
+
+p#contact-paragraph {
+    color: white;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+#icon-git {
+    float: left;
+    padding-left: 95px;
+    color: white;
+}
+
+#icon-twitter {
+    float: left;
+}
+
+#icon-linkedin {
+    float: left;
+}
+
+.icons img {
+    padding-right: 30px;
+    height: 50px;
+    width: auto;
+}
+
+#copyright {
+    background-color:#659dbd;
+    margin-top: -20px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    
+}
+
+p#copyrightp {
+    color: white;
+}
+
