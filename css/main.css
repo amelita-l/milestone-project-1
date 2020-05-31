@@ -9,23 +9,19 @@ body {
 }
 
 #portfolio {
-    height: 1500px;
-    margin-top: -35px;
+    height: 1220px;
 }
 
 #about {
-    height: 645px;
-    margin-top: -300px;
+    height: 520px;
 }
 
 #contact {
-    height: 385px;
-    margin-top: -140px;
+    height: 365px;
 }
 
 #copyright {
     height: 60px;
-    margin-top: -20px;
 }
 /****** GRID ******/
 
@@ -47,10 +43,12 @@ body {
 
 /****** HEADER ******/
 
+#header-background-color {
+    background: #bc986a;
+}
+
 #header {
     background: url('../img/hero-image.jpg') no-repeat #bc986a;
-    height: 800px;
-    width: 1200px;
 }
 
 nav ul {
@@ -58,10 +56,12 @@ nav ul {
     font-size: 20px;
     text-align: right;
     padding-top: 30px;
+    margin: 0px;
 }
 
 nav ul li {
     display: inline-block;
+    
 }
 
 nav ul li a {
@@ -97,15 +97,18 @@ nav ul li a {
 h1 {
      font-variant: small-caps;
      font-size: 60px;
+     margin: 0px;
+     padding-top: 50px;
 }
 
 h2 {
     padding-left: 350px;
     padding-right: 30px;
-    padding-top: 305px;
+    padding-top: 370px;
     font-size: 25px;
     text-align:left;
     line-height: 40px;
+    margin: 0px;
 }
 
 
@@ -119,8 +122,9 @@ h3 {
     text-align: center;
     font-size: 35px;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     color: #bc986a;
+    margin: 0px;
 }
 
 .thumbnails img {
@@ -181,12 +185,12 @@ p#about-me-paragraph {
 /****** FOOTER ******/
 #contact {
     background-color: #8d8741;
-    margin-bottom: 20px;
+
 }
 
 h3#contact-text {
     color: white;
-    margin-bottom: 10px;
+    margin: 0px;
 }
 
 p#email a {
@@ -196,16 +200,18 @@ p#email a {
 
 h4.small-contact-headers {
     color: white;
+    margin-top: 0px;
 }
 
 h4.small-contact-headers#hang-out {
     margin-left: 20px;
+    margin-bottom: 0px;
 }
 
 p#contact-paragraph {
     color: white;
     margin-left: 20px;
-    margin-top: -20px;
+    margin-bottom: 0px;
 
 }
 
