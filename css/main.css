@@ -43,12 +43,9 @@ body {
 
 /****** HEADER ******/
 
-#header-background-color {
-    background: #bc986a;
-}
-
-#header {
+header {
     background: url('../img/hero-image.jpg') no-repeat #bc986a;
+    background-position: 50%;
 }
 
 nav ul {
@@ -102,9 +99,7 @@ h1 {
 }
 
 h2 {
-    padding-left: 350px;
-    padding-right: 30px;
-    padding-top: 370px;
+    padding: 350px 30px 20px 350px;
     font-size: 25px;
     text-align:left;
     line-height: 40px;
@@ -238,10 +233,11 @@ p#contact-paragraph {
 #copyright {
     background-color:#659dbd;
     padding-top: 25px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
     
 }
 
-p#copyrightp {
+h5#copyrightp {
     color: white;
+    text-align: center;
 }
